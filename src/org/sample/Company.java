@@ -85,9 +85,12 @@ public class Company {
 		Set<String> keySet = m2.keySet();
 		System.out.println(keySet);
 		
-		boolean containsKey = m2.containsKey("mano");
-		System.out.println(containsKey);
+	   Collection<Integer> values2 = m2.values();
+	   System.out.println(values2);
+	   //for loop
+		
 	}
+	
 	
 	
 	
